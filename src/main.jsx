@@ -4,7 +4,6 @@ import App from "./App.jsx";
 import "bootstrap/dist/css/bootstrap.min.css";
 import { RouterProvider, createBrowserRouter } from "react-router-dom";
 import ContactAndResume from "./Routes/ContactAndResume/ContactAndResume.jsx";
-
 import Accomplishments from "./Routes/Accomplishment/Accomplishments.jsx";
 import { Provider } from "react-redux";
 import portfolioStore from "./Store/index.js";
