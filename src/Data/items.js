@@ -66,9 +66,10 @@ export const DEFAULT_SKILL_ITEMS = [
       title: "My Technical Knowledge",
       fileName: "CloudInfraImg",
       skills: [
+        "⚡ Strong foundation in algorithmic thinking using Java and C++ to solve complex challenges.",
         "⚡ Experience working with databases like MySql",
         "⚡ Experience hosting and managing websites",
-        "⚡ Experience with Continuous Integration",
+        
       ],
       softwareSkills: [
         {
@@ -80,8 +81,8 @@ export const DEFAULT_SKILL_ITEMS = [
           src: "Images/c++.png"
         },
         {
-          skillName: "JavaScript",
-          src: "Images/js.png"
+          skillName: "MySQL",
+          src: "Images/MySQL.png"
         },
         
       ],
@@ -235,7 +236,7 @@ export const DEFAULT_EXPERIENCE_CARD_ITEMS = {
         name: "Myntra Clone",
         url: "https://github.com/Nikhilhaspe/Realtime-Pizza",
         description:
-          "This is Myntra Clone Built using React, react-router-dom, redux and other usefull libraries. Adaptive to any screen width i.e Responsive.",
+          "This Myntra Clone is meticulously crafted using React, react-router-dom, and Redux, along with other essential libraries.",
         logos: [
           {
             language:"HTML",
@@ -285,7 +286,7 @@ export const DEFAULT_EXPERIENCE_CARD_ITEMS = {
         projectView:"https://ashutoshwagh12.github.io/Calculator/",
         url: "https://github.com/AshutoshWagh12/Calculator",
         description:
-          "A Simple Calculator for basic mathematical operations having elegant UI with both light and dark mode.",
+          "A user-friendly Simple Calculator designed for basic mathematical operations. With a clean interface and efficient functionality, this calculator ensures quick and accurate calculations for everyday use.",
         logos: [
           {
             language:"HTML",
