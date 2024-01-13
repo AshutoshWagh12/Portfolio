@@ -234,7 +234,8 @@ export const DEFAULT_EXPERIENCE_CARD_ITEMS = {
       {
         id: "1",
         name: "Myntra Clone",
-        url: "https://github.com/Nikhilhaspe/Realtime-Pizza",
+        projectView:"#",
+        url: "#",
         description:
           "This Myntra Clone is meticulously crafted using React, react-router-dom, and Redux, along with other essential libraries.",
         logos: [
