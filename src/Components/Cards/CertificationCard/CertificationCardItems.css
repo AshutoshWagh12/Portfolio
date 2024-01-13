@@ -1,0 +1,13 @@
+/* --------------CertificationCardItems--------------- */
+
+.certs-body-div {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+  }
+  
+  @media (max-width: 768px) {
+    .certs-body-div {
+      flex-direction: column;
+    }
+  }

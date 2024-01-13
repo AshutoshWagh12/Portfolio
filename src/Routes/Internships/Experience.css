@@ -1,0 +1,169 @@
+
+/* ----------- Animation-Box ------------ */
+
+@keyframes fadeInFromBottom {
+  from {
+    opacity: 0;
+    transform: translateY(40px); 
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+.experience-main {
+  animation: fadeInFromBottom 2s ease forwards;
+  
+}
+
+/* ------------------------------------------- */
+
+
+.experience-main {
+    width: 100%;
+    margin-top: 70px;
+  }
+ 
+  .basic-experience {
+    margin-left: 5%;
+    margin-right: 5%;
+  }
+  
+  .experience-heading-div {
+    display: flex;
+  }
+  
+  .experience-heading-div > * {
+    flex: 1;
+  }
+  
+  .experience-heading-img-div {
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .experience-heading-text-div {
+    text-align: center;
+  }
+  
+  .experience-heading-img-div > * {
+    max-width: 100%;
+    height: auto;
+  }
+  
+  .experience-heading-text {
+    font-size: 56px;
+    font-weight: 400;
+    font-family: "Google Sans Medium";
+    line-height: 1.1;
+    text-align: center;
+    margin-top: 50px;
+  }
+
+  /*  Full-Card */
+
+  .full-card{
+    display: flex;
+    align-items: center;
+    width: 30rem;
+    margin-left: 90px;
+    margin-top: 35px;
+  }
+
+  .card-header{
+    background: rgb(144, 188, 225);
+  }
+  .card-body{
+    width: 100%;
+    padding: 0;
+  }
+  .card-title{
+    
+    width: 100%;
+    font-size: 22px;
+  }
+
+  .card-body h4{
+    font-size: 18px;
+  }
+
+  .card-body h6{
+    font-size: 17px;
+    margin-top: 20px;
+  }
+
+  .card-text:last-child {
+    margin-bottom: 0;
+    margin-top: -8px;
+    margin-right: -8px;
+  }
+  
+  .skills img{
+    float: right;
+    height: 40px;
+    width: 40px;
+    margin-top: 5px;
+    margin-right: 10px;
+  }
+  
+  
+  @media (max-width: 1380px) {
+    .experience-heading-text {
+      font-size: 50px;
+      margin-top: 80px;
+    }
+    
+  }
+  
+  @media (max-width: 768px) {
+    .experience-heading-text {
+      font-size: 30px;
+      margin-top: 30px;
+    }
+  
+    .experience-heading-div {
+      flex-direction: column;
+    }
+
+    .full-card{
+      width: 20rem;
+      margin-left: 70px;
+    }
+
+    .card-title{
+      font-size: 20px;
+    }
+  
+    .card-body h4{
+      font-size: 16px;
+    }
+  
+    .card-body h6{
+      font-size: 15px;
+      margin-top: 18px;
+    }
+
+    .card-para{
+      padding: 4px;
+    }
+
+
+    .card-text:last-child {
+      margin-right: 11px;
+      margin-left: -2px;
+      margin-bottom: 10px;
+      
+    }
+
+    .skills{
+      margin-right: 65px;
+    }
+
+    .skills img{
+      height: 33px;
+      width: 33px;
+    }
+  
+    
+  }
+  

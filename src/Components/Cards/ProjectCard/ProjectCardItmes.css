@@ -1,0 +1,19 @@
+.repo-cards-div-main {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(400px, 1fr));
+    gap: 1.5rem 1.5rem;
+    margin-left: 40px;
+    margin-right: 40px;
+    margin-top: 60px;
+  }
+    /* Media Query */
+  
+    @media (max-width: 768px) {
+      
+      .repo-cards-div-main {
+        grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+        margin-left: 10px;
+        margin-right: 10px;
+        margin-top: 30px;
+      }
+    }

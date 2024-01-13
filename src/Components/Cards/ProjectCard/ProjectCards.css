@@ -1,0 +1,147 @@
+
+/* ---------------------------------------- */
+
+
+
+  /* ---------------------------------------- */
+
+  /* ---------------------------------------- */
+
+  .Project-View{
+    display: block;
+    float: right;
+  }
+  .btn-project-card{
+    /* background-color: rgb(167, 74, 89); */
+    background-color: rgb(139, 188, 218); 
+    border: black;
+    padding: 0px 15px;
+    padding-bottom: 3px;
+    border-radius:5px;
+  }
+  .btn-project-card:hover{
+    background-color: rgb(173, 204, 207);
+    border: 2px solid rgb(11, 11, 11);
+  }
+   
+  .repo-name-div {
+    display: flex;
+    align-items: center;
+  }
+   
+  .repo-name {
+    white-space: nowrap;
+    line-height: 2.1;
+    text-overflow: ellipsis;
+    color: rgb(36, 41, 46);
+    font-family: "Google Sans Regular";
+    margin-bottom: 0.25rem;
+    font-size: 25px;
+    font-weight: 700;
+    letter-spacing: -0.5px;
+    overflow: hidden;
+    margin-top: -10px;
+  }
+  
+   
+  .repo-description {
+    word-wrap: break-word;
+    text-align: left;
+    display: -webkit-box;
+    font-family: "Google Sans Regular";
+    -webkit-line-clamp: 4;
+    -webkit-box-orient: vertical;
+  }
+  
+  .repo-details {
+    display: flex;
+    flex-direction: row;
+  }
+
+  .repo-details img{
+    height: 40px;
+    width: 40px;
+  }
+  
+  
+  
+  @media (max-width: 768px) {
+    .repo-name {
+      line-height: 3.1;
+      font-size: 18px;
+      font-weight: 700;
+    }
+  
+    .repo-description {
+      font-size: 14px;
+    }
+  
+    .repo-details {
+      flex-direction: column;
+    }
+    .repo-details img{
+      height: 35px;
+      width: 35px;
+    }
+  }
+  
+  .project_div{
+    border: 3px solid rgba(249, 249, 249, 0.1);
+    box-shadow: rgb(0 0 0 / 69%) 0px 26px 30px -10px,
+      rgb(0 0 0 / 73%) 0px 16px 10px -10px;
+
+      padding: 20px;
+  }
+
+  .project_div a{
+    text-decoration: none;
+  }
+  
+  .project_div:hover {
+    box-shadow: rgb(0 0 0 / 80%) 0px 40px 58px -18px,
+      rgb(0 0 0 / 72%) 0px 30px 22px 10px;
+    transform: scale(1.05);
+    border-color: rgba(249, 249, 249, 0.8);
+    cursor: pointer;
+  }
+
+
+  /* ---------------------------------------- */
+
+  /* ---------------------------------------- */
+
+  .dev-icons-languages {
+    padding-left: 0;
+    list-style: none;
+    font-size: 2rem;
+    margin-bottom: 0px;
+    margin-top: 0px;
+    text-align: right;
+  }
+  .software-skill-inline{
+    display: inline-block;
+    margin-right: 5px;
+    margin-bottom: 0px;
+    font-family: "Google Sans Regular";
+  }
+
+  .software-skill-inline img{
+    margin-right: 5px;
+  }
+ 
+  
+  @media (max-width: 768px) {
+    
+    .software-skill-inline{
+      display: inline-block;
+      margin-right: 5px;
+      margin-bottom: 0px;
+      font-family: "Google Sans Regular";
+    }
+    .software-skill-inline img{
+      margin-right: 5px;
+    }
+  }
+  
+
+  /* ---------------------------------------- */

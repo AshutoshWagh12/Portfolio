@@ -1,0 +1,55 @@
+.image-details {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  margin-bottom: 40px;
+}
+
+.image-details img{
+  height: 70px;
+  width: 70px;
+}
+
+.dev-icons {
+  padding-left: 0;
+  list-style: none;
+  font-size: 2rem;
+  margin-bottom: 0px;
+  margin-top: 0px;
+  text-align: right;
+  }
+  
+  .software-skill-inline {
+    display: inline-block;
+    margin-right: 20px;
+    margin-bottom: 0px;
+    font-family: "Google Sans Regular";
+  }
+  .software-skill-inline {
+    cursor: pointer;
+  }
+  
+  .software-skill-inline > i {
+    color: #868e96;
+  }
+  
+  .software-skill-inline > i:hover {
+    color: #645beb;
+  }
+    
+  
+  @media (max-width: 768px) {
+    .software-skill-inline {
+      margin-right: 10px;
+      margin-bottom: 0px;
+    }
+
+    .image-details {
+      justify-content: center;
+      margin-bottom: 25px;
+    }
+    .image-details img{
+      height: 55px;
+      width: 55px;
+    }
+  }
