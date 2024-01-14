@@ -1,11 +1,11 @@
 import {configureStore} from "@reduxjs/toolkit";
-import projectCardsSlice from "./projectCardsSlice";
-import certificationCardsSlice from "./certificationCardsSlice";
-import SocialMediaLinksSlice from "./SocialMediaLinksSlice";
-import contactPageSlice from "./contactPageSlice";
-import experienceCardsSlice from "./ExperienceCardsSlice";
+import experienceCardsSlice from "./experienceCardsSlice";
 import greetingSlice from "./GreetingSlice";
 import skillsSlice from "./SkillsSlice";
+import certificationCardsSlice from "./certificationCardsSlice";
+import projectCardsSlice from "./projectCardsSlice";
+import SocialMediaLinksSlice from "./SocialMediaLinksSlice";
+import contactPageSlice from "./contactPageSlice";
 
 
 
@@ -13,8 +13,7 @@ import skillsSlice from "./SkillsSlice";
 const portfolioStore =configureStore({
     reducer:{
         projectCardItems: projectCardsSlice.reducer,
-        certCardItems:certificationCardsSlice.reducer,
-        experienceCardItems:experienceCardsSlice.reducer,
+        certCardItems:certificationCardsSlice.reducer,        experienceCardItems:experienceCardsSlice.reducer,
         greetingItems:greetingSlice.reducer,
         socialMediaLinks:SocialMediaLinksSlice.reducer,
         skillItems:skillsSlice.reducer,
