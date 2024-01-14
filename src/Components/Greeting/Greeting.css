@@ -117,6 +117,9 @@
     }
   }
   @media (max-width: 768px) {
+    .greet-main{
+      margin-top: 50px;
+    }
     .button-greeting-div {
       justify-content: space-around;
     }

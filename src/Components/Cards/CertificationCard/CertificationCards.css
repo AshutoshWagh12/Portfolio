@@ -1,4 +1,21 @@
+/* ----------- Animation-Box ------------ */
 
+@keyframes fadeInFromBottom {
+  from {
+    opacity: 0;
+    transform: translateY(20px); 
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+.cert-card {
+  animation: fadeInFromBottom 2s ease forwards;
+  
+}
+
+/* ------------------------------------------- */
 
 /* ------------ CertificationCard ----------- */
 

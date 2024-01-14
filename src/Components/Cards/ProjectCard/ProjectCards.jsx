@@ -4,10 +4,7 @@ import { OverlayTrigger, Tooltip } from "react-bootstrap";
 
 const ProjectCards = ({ item }) => {
   return (
-    <div
-      className=" project_div"
-      style={{ backgroundColor: "rgb(41, 42, 45)" }}
-    >
+    <div className="project_div" style={{ backgroundColor: "rgb(41, 42, 45)" }}>
       <div className="Project-View">
         {item.id === "2" ? (
           <a href={item.projectView} target="_blank">
