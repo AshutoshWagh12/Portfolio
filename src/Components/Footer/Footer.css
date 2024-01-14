@@ -3,3 +3,11 @@
     text-align: end;
     padding: 15px;
 }
+
+
+@media (max-width: 768px) {
+    .copyright{
+        font-size: 10px;
+    }
+
+}

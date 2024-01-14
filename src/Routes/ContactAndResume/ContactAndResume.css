@@ -94,6 +94,19 @@ main{
 }
 
 
+@media (max-width: 1380px) and (min-width: 768px){
+  main{
+    margin: 40px;
+  }
+  .my-img{
+    margin: auto;
+  }
+  .contact-info p{
+    margin-left: 45px;
+  }
+
+}
+
 /* Media Query */
 @media (max-width: 768px) {
   .social-media-div {
@@ -101,6 +114,7 @@ main{
   }
 
 main{
+  margin-top: 40px;
   flex-direction: column;
 }
 
