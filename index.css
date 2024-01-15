@@ -1,0 +1,8 @@
+body {
+    width: 100%;
+    overflow-x: hidden;
+}
+html,
+body {
+  scroll-behavior: smooth;
+}

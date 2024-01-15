@@ -3,7 +3,6 @@ import "./Skills.css";
 import FullStackImg from "./FullStackImg";
 import CloudInfraImg from "./CloudInfraImg";
 import { useSelector } from "react-redux";
-import SoftwareSkill from "./SoftwareSkills";
 import SoftwareSkills from "./SoftwareSkills";
 
 const SkillSection = () => {
