@@ -10,7 +10,7 @@ export const DEFAULT_GREETING_ITEMS = {
   full_name: "Ashutosh Wagh",
   subTitle: "A Computer Science Graduate. Always learning 🔥.",
   resumeLink:
-  "https://drive.google.com/file/d/16PJETCkehDu4hV-LD3o29U6mJCMoA9rX/view?usp=sharing",
+  "https://drive.google.com/file/d/13AJvXxjGoCN29PgYy7GLN16UImp1TuQY/view?usp=sharing",
   mail: "mailto:waghashutosh12@gmail.com",
 };
 
@@ -208,7 +208,8 @@ export const DEFAULT_EXPERIENCE_CARD_ITEMS = {
      {
         id: "0",
         name: "My-PortFolio",
-        url: "https://github.com/Nikhilhaspe/whatsapp-clone-mern",
+        projectView:"https://ashutosh-wagh-portfolio.netlify.app/",
+        url: "https://github.com/AshutoshWagh12/Portfolio",
         description:
           "My personal portfolio website. Built using React, react-router-dom and other usefull libraries.Adaptive to any screen width i.e Responsive.",
         logos: [
